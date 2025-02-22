@@ -1,3 +1,5 @@
+import { Github, Linkedin } from 'lucide-react';
+
 function ArrowIcon() {
   return (
     <svg
@@ -37,8 +39,19 @@ export default function Footer() {
             target='_blank'
             href='https://github.com/bogdanmosica'
           >
-            <ArrowIcon />
+            <Github className='h-4' />
             <p className='ml-2 h-7'>github</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className='flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100'
+            rel='noopener noreferrer'
+            target='_blank'
+            href='https://www.linkedin.com/in/mosicabogdan/'
+          >
+            <Linkedin className='h-4' />
+            <p className='ml-2 h-7'>linkedin</p>
           </a>
         </li>
       </ul>

@@ -14,17 +14,22 @@ import { ThemeProvider } from './components/themeProvider';
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Bogdan-Marius Mosica | Front-End Developer',
+    template: '%s | Bogdan-Marius Mosica',
   },
-  description: 'This is my portfolio.',
+  description:
+    'Portfolio of Bogdan-Marius Mosica, a Front-End Developer specializing in React, TypeScript, and modern web technologies.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Bogdan-Marius Mosica | Front-End Developer',
+    description:
+      'Explore my projects and experience in front-end development, including React, TypeScript, and game development with React.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Bogdan-Marius Mosica Portfolio',
     locale: 'en_US',
     type: 'website',
+  },
+  icons: {
+    icon: '/favicon.ico', // /public path
   },
   robots: {
     index: true,

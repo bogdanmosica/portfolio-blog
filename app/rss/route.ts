@@ -24,15 +24,15 @@ export async function GET() {
     )
     .join('\n')
 
-  const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
-  <rss version="2.0">
-    <channel>
-        <title>My Portfolio</title>
-        <link>${baseUrl}</link>
-        <description>This is my portfolio RSS feed</description>
-        ${itemsXml}
-    </channel>
-  </rss>`
+    const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0">
+      <channel>
+          <title>Bogdan-Marius Moșica | Front-End Developer</title>
+          <link>${baseUrl}</link>
+          <description>Stay updated with my latest blog posts on front-end development, React, TypeScript, and modern web technologies.</description>
+          ${itemsXml}
+      </channel>
+    </rss>`
 
   return new Response(rssFeed, {
     headers: {

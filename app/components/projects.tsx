@@ -15,12 +15,11 @@ const projects = [
     description:
       'AiBATROS is a residential inventory management system, modernized from Razor Pages to React, TypeScript, Vite, TailwindCSS, enhancing performance, scalability, and developer experience through efficient tools and practices.',
     tags: [
-      'JavaScript',
-      'TypeScript',
+      'javascript',
+      'typescript',
       'React',
       'Inventory Management',
       'Redux',
-      'RxJS',
       'RESTful API',
       'Git',
       'D3.js',
@@ -39,7 +38,7 @@ const projects = [
       'Built with React, TypeScript, TailwindCSS, and ShadCN, featuring pagination, multi-API data integration, and front-end filtering for real-time game results and a seamless user experience.',
     tags: [
       'react',
-      'TypeScript',
+      'typescript',
       'react-query',
       'vite',
       'tailwindcss',
@@ -59,14 +58,14 @@ const projects = [
       'Worked on five live games using React, Vite, Redux (RxJS), WebSockets, Vanilla-Extract, and Styled-Components, focusing on UI/UX redesigns, TypeScript migration, new game development, and performance optimization.',
     tags: [
       'react',
-      'TypeScript',
+      'typescript',
       'react query',
       'vite',
       'styled-components',
       'rxjs',
       'websockets',
-      'Observables',
-      'Animations',
+      'observables',
+      'animations',
     ],
     title: 'Betting Live Games',
     period: '2023 - 2025',
@@ -81,12 +80,11 @@ const projects = [
       'Internal tool redesigned and improved a content management system for support teams using React, React Query, and Material - UI, optimizing data fetching, state management, and overall user experience.',
     tags: [
       'react',
-      'TypeScript',
+      'typescript',
       'react query',
       'vite',
-      'styled-components',
-      'Material-UI',
-      'Animations',
+      'material-UI',
+      'animations',
     ],
     title: 'Back Office Platform',
     period: '2024 - 2025',
@@ -111,7 +109,7 @@ const projects = [
   {
     description:
       'ANABI is a platform centralizing all criminal assets seized in Romania, their net worth and location for the National Agency for the Management of Seized Assets.',
-    tags: ['react', 'TypeScript', 'webpack', 'redux', 'storybook', 'i18next'],
+    tags: ['angular', 'TypeScript', 'webpack', 'redux', 'storybook', 'i18next'],
     title: 'ANABI Platform',
     period: '2021 - 2022',
     imageMeta: {
@@ -123,7 +121,7 @@ const projects = [
   {
     description:
       'Expert Consultation is an application meant to allow a public institution (or any other entity) to create a piece of legislation, proposal or any other type of document and to initiate a round of consultation with experts.',
-    tags: ['react', 'TypeScript', 'webpack', 'redux', 'storybook', 'i18next'],
+    tags: ['angular', 'typescript', 'webpack', 'redux', 'storybook', 'i18next'],
     title: 'Expert Consultation Platform',
     period: '2020 - 2021',
     imageMeta: {
